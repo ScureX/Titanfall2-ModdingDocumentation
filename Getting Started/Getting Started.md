@@ -7,14 +7,15 @@ For instance, if you need more information that what the mod structure section h
 
 ## Squirrel
 
-Titanfall mods are written in Respawn Squirrel (rsquirrel), a modified version of [Squirrel]](http://www.squirrel-lang.org/)
+Titanfall mods are written in Respawn Squirrel (rsquirrel), a modified version of [Squirrel](http://www.squirrel-lang.org/)
 
 Squirrel files have extensions of .nut and .gnut.
 
 ## Mod Structure
 
-Mods start as a folder in \Titanfall2\R2Northstar\mods, being the name of the mod.
-Within the main folder is mod.json, which contains the information about your mod as well as referencing the scripts it utilizes.
-These scripts will go in <main folder>\mod\scripts\vscripts\. 
-[//]: # (Someone please edit this to actually explain why this is.)
-Extra folders may be required as well. For instance, scripts for a new gamemode go in a \gamemodes\ folder within vscripts. 
+Mods start as a folder in '\Titanfall2\R2Northstar\mods', being the name of the mod.
+Within the main folder is 'mod.json', which contains the information about your mod as well as referencing the scripts it utilizes.
+These scripts will go in '[main folder]\mod\scripts\vscripts'. 
+
+Extra folders may be required as well. For instance, scripts for a new gamemode go in a '\gamemodes' folder within vscripts. 
+(Someone please edit this to actually explain why this is.)
