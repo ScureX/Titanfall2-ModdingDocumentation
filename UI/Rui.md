@@ -23,6 +23,7 @@ RuiDestroy( rui )
 ```Squirrel
 RuiSetResolution(rui, GetScreenSize()[0], GetScreenSize()[1] )
 RuiSetDrawGroup( rui, drawGroup )
+
 RuiSetString( rui, argName, value )
 RuiSetBool( rui, argName, value )
 RuiSetInt( rui, argName, value )
@@ -30,6 +31,8 @@ RuiSetFloat( rui, argName, value )
 RuiSetFloat2( rui, argName, value )  // value is a vector; only x and y are used
 RuiSetFloat3( rui, argName, value )
 RuiSetColorAlpha( rui, argName, color, alpha )  // color is a vector
+
+RuiDestroyIfAlive( rui )
 ```
 
 ## Assetnames
@@ -58,16 +61,22 @@ ui/cockpit_console_text_top_left.rpak
 clGlobal.topoFullScreen
 clGlobal.topoCockpitHudPermanent
 ```
+### Create Topology
+```
+RuiTopology_CreatePlane()
+And RuiTopology_CreateSphere()
+```
 
 ## Drawgroups
 ```
 RUI_DRAW_WORLD
 RUI_DRAW_HUD
 RUI_DRAW_COCKPIT
+RUI_DRAW_NONE
 ```
 
 ## Sortkey
-//TODO
+Int to prevent z-fighting. Higher -> in front
 
 ## Tracking
 ```
