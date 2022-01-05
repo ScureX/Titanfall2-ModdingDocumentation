@@ -26,6 +26,9 @@ GetHealthFrac(player)
 GetPetTitan()
 GetTitanSoul() // if IsTitan() | player.GetPetTitan().GetTitanSoul() if !IsTitan()
 
+AddThreatScopeColorStatusEffect(weaponOwner)
+RemoveThreatScopeColorStatusEffect(weaponOwner)
+
 ```
 
 ## Bools
