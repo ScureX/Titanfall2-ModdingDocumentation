@@ -2,7 +2,7 @@
 
 This is a document containing the basics for Titanfall 2 Modding.
 In this folder you may also find more detailed explanations for the things that are covered here.
-If it is not located in this folder, there may be an entire folder dedicated to it ([Squirrel], for instance).
+If it is not located in this folder, there may be an entire folder dedicated to it.
 For instance, if you need more information that what the mod structure section here covers, visit [mod_structure] 
 
 ## Squirrel
