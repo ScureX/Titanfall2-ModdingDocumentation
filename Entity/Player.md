@@ -16,15 +16,15 @@ GetPlayerArrayOfEnemies_Alive( int team )
 GetPlayerName()
 GetBossPlayerName()
 GetPlayerClass()
-GetVelocity()
-GetTeam()
+GetVelocity() // vector
+GetTeam() // int
 
-GetActiveWeapon()
+GetActiveWeapon() // entity
 GetOffhandWeapon(slot)
-GetMainWeapons()
+GetMainWeapons() 
 GetAntiTitanWeapon()
 GetWeaponAmmoStockpile()
-GetZoomFrac()
+GetZoomFrac() // 0.0 (no zoom) - 1.0 (full zoom)
 
 GetMaxHealth()
 GetHealthFrac(player)
