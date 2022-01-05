@@ -6,6 +6,7 @@ These are by no means complete, I am just documenting what i find for future use
 - [Rui](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/UI/Rui.md)
 
 ## Entity
+- [Entity](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/Entity/Entity.md)
 - [Player](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/Entity/Player.md)
 - [Titan](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/Entity/Titan.md)
 - [Weapon](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/Entity/Weapon.md)
