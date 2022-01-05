@@ -1,6 +1,6 @@
 # Rui
 
-# CreateRui
+## CreateRui
 ```Squirrel
 // To create one, do:
 rui = RuiCreate( $"ui/assetname.rpak", topology, drawGroup, sortKey )
@@ -19,7 +19,7 @@ RuiSetColorAlpha( rui, argName, color, alpha )  // color is a vector
 RuiDestroy( rui )
 ```
 
-### Methods
+## Methods
 ```Squirrel
 RuiSetResolution(rui, GetScreenSize()[0], GetScreenSize()[1] )
 RuiSetDrawGroup( rui, drawGroup )
@@ -32,7 +32,7 @@ RuiSetFloat3( rui, argName, value )
 RuiSetColorAlpha( rui, argName, color, alpha )  // color is a vector
 ```
 
-### Assetnames
+## Assetnames
 https://noskill.gitbook.io/titanfall2/game-values/ui-and-hud
 ```
 ui/callsign_bottom_center.rpak
@@ -53,22 +53,23 @@ ui/inventory_hud.rpak
 ui/cockpit_console_text_top_left.rpak
 ```
 
-### Topologies
+## Topologies
 ```
 clGlobal.topoFullScreen
 clGlobal.topoCockpitHudPermanent
 ```
 
-### Drawgroups
+## Drawgroups
 ```
 RUI_DRAW_WORLD
 RUI_DRAW_HUD
 RUI_DRAW_COCKPIT
 ```
 
-### Sortkey
+## Sortkey
+//TODO
 
-### Tracking
+## Tracking
 ```
 // VECTOR TYPES
 RUI_TRACK_ABSORIGIN_FOLLOW,                   // Create at absorigin, and update to follow the entity
@@ -126,3 +127,4 @@ RUI_TRACK_WEAPON_HUD_ICON,
   ```
 
 # CreateCockpitRui
+//TODO
