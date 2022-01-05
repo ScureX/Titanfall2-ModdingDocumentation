@@ -3,7 +3,7 @@ There Were no Docs so i made my own
 These are by no means complete, I am just documenting what i find for future use
 
 ## All Methods
-Here is a list of all methods i was able to find so far. This is unorganized but might help you. Think about what name the method you're looking for might have, then search the clean version for that method. If you found something but have no idea how to implement it go to the uncleaned version and search for the function you have found.
+Here is a list of all methods i was able to find in the vscript folder of ```englishclient_mp_common.bsp.pak000_dir.vpk```. This is unorganized but might help you. Think about what name the method you're looking for might have, then search the clean version for that method. If you found something but have no idea how to implement it go to the uncleaned version and search for the function you have found.
 - [Clean version](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/AllMethodsClean.md)
 - [Uncleaned version](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/AllMethods.md) **view this one raw**
 
