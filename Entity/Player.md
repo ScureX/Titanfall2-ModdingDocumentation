@@ -2,17 +2,42 @@
 
 ## Get player
 ```
-GetLocalViewPlayer()
+GetLocalViewPlayer() // player youre watching (can be replay)
+GetLocalClientPlayer()
 ```
 
 ## Methods
 ```
-GetActiveWeapon()
+GetPlayerName()
+GetBossPlayerName()
+GetPlayerClass()
 GetVelocity()
+GetTeam()
+
+GetActiveWeapon()
+GetOffhandWeapon(slot)
+GetMainWeapons()
+GetAntiTitanWeapon()
+GetWeaponAmmoStockpile
+
+GetMaxHealth()
+GetHealthFrac(player)
+
+GetPetTitan()
+GetTitanSoul() // if IsTitan() | player.GetPetTitan().GetTitanSoul() if !IsTitan()
+
 ```
 
 ## Bools
 ```
 IsValid(player)
 IsAlive(player)
+
+IsPlayer()
+
+IsTitan()
+IsTitanAvailable(player)
+
+PlayerMelee_IsAttackActive()
+IsUsingOffhandWeapon()
 ```
