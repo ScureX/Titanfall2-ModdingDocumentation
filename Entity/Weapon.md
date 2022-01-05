@@ -13,6 +13,7 @@ GetWeaponPrimaryClipCount()
 GetWeaponPrimaryClipCountMax()
 GetWeaponChargeLevel()
 GetWeaponChargeLevelMax()
+GetProjectilesPerShot()
 ```
 
 ## Bools
