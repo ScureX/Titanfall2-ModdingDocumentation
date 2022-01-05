@@ -1,4 +1,4 @@
-# Here are all methods without usecases. Use this to find what could be the right ones and get their usage from [AllMethods]() 
+# Here are all methods without usecases. Use this to find what could be the right ones and get their usage from [AllMethods](https://github.com/ScureX/Titanfall2-ModdingDocumentation/blob/main/AllMethods.md) 
 **You can search with ctrl + f**
 
 AITDM_NPCHumanSizedInit()  
