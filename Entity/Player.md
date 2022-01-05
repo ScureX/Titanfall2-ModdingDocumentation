@@ -4,6 +4,11 @@
 ```
 GetLocalViewPlayer() // player youre watching (can be replay)
 GetLocalClientPlayer()
+
+// Multiple People
+GetPlayerArray()
+GetPlayerArrayOfTeam( int team )
+GetPlayerArrayOfEnemies_Alive( int team )
 ```
 
 ## Methods
