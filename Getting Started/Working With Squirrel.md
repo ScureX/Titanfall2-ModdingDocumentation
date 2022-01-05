@@ -7,7 +7,7 @@ This document covers setting up your workspace to do writing in squirrel.
 For Notepad++, we will define a custom language for Squirrel. 
 Luckily for us, [samisalreadytaken has written a squirrel highlighter](https://gist.github.com/samisalreadytaken/5bcf322332074f31545ccb6651b88f2d#file-squirrel-xml).
 1. Download Squirrel.xml
-2. At the top, edit 'ext="nut"' to ' ext="nut gnut"' so it works with gnut files as well.
+2. At the top, edit ' ext="nut" ' to ' ext="nut gnut" ' so it works with gnut files as well.
 3. Open Notepad++
 4. Navigate to Language > User Defined Language > Define your language
 5. Click import, and select Squirrel.xml
@@ -21,8 +21,8 @@ VSCode has extensions avaliable for working with squirrel, and searching "squirr
 
 However, installing this will only create an associastion for .nut files, and not .gnut files. 
 To fix this:
-	1. Open a .gnut file.
-	2. Do CTRL+K, M (not CTRL+K, CTRL+M)
-	3. Select 'Configure File Association for .gnut'
-	4. Select 'Squirrel' (only appears if you have the extension)
-	5. Done!
+1. Open a .gnut file.
+2. Do CTRL+K, M (not CTRL+K, CTRL+M)
+3. Select 'Configure File Association for .gnut'
+4. Select 'Squirrel' (only appears if you have the extension)
+5. Done!
