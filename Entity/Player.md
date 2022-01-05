@@ -18,7 +18,8 @@ GetActiveWeapon()
 GetOffhandWeapon(slot)
 GetMainWeapons()
 GetAntiTitanWeapon()
-GetWeaponAmmoStockpile
+GetWeaponAmmoStockpile()
+GetZoomFrac()
 
 GetMaxHealth()
 GetHealthFrac(player)
