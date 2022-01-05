@@ -24,4 +24,4 @@ IsReadyToFire()
 ```
 "pas_northstar_optics"
 "instant_shot"
-``
+```
