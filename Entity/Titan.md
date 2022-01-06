@@ -8,14 +8,14 @@ entity soul = player.IsTitan() ? player.GetTitanSoul() : player.GetPetTitan().Ge
 GetAISettingsName()
 GetOffhandWeapon()
 GetTitanSoulNetFloat( "coreAvailableFrac" )
-
-HasSoul()
-
+```
+```
 SetShieldHealth()
 ```
 
 ## Bools
 ```
+HasSoul()
 IsArcTitan()
 IsDoomed()
 IsPetTitan()
