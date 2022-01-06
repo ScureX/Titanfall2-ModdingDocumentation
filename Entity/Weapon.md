@@ -19,6 +19,7 @@ GetProjectilesPerShot()
 ## Bools
 ```
 IsReadyToFire()
+IsWeaponInAds()
 ```
 
 ## Mod names
