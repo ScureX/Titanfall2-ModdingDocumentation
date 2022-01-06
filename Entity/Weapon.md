@@ -13,7 +13,6 @@ GetProjectileWeaponSettingInt()
 GetWeaponChargeLevel()
 GetWeaponChargeLevelMax()
 GetWeaponClassName()
-GetWeaponOwner()
 GetWeaponOwner() // player, titan, etc
 GetWeaponPrimaryClipCount()
 GetWeaponPrimaryClipCountMax()
