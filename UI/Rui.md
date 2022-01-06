@@ -64,7 +64,7 @@ clGlobal.topoCockpitHudPermanent
 ### Create Topology
 ```
 RuiTopology_CreatePlane( <0,0,0>, <screenSize[0],0,0>, <0,screenSize[1],0>, false) // float[2] screenSize = GetScreenSize()
-And RuiTopology_CreateSphere()
+RuiTopology_CreateSphere()
 ```
 
 ## Drawgroups
