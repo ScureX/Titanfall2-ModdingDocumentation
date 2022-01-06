@@ -2,22 +2,36 @@
 
 ## Methods
 ```
-GetWeaponOwner() // player, titan, etc
-GetWeaponClassName()
-GetWeaponType() // WT_ANTITITAN
-
+GetAllowHeadShots()
+GetAttackDirection()
+GetAttackPosition()
+GetMaxDamageFarDist()
 GetMods()
-HasMod("modname")
-
-GetWeaponPrimaryClipCount()
-GetWeaponPrimaryClipCountMax()
+GetProjectilesPerShot()
+GetProjectileWeaponSettingFloat()
+GetProjectileWeaponSettingInt()
 GetWeaponChargeLevel()
 GetWeaponChargeLevelMax()
-GetProjectilesPerShot()
+GetWeaponClassName()
+GetWeaponOwner()
+GetWeaponOwner() // player, titan, etc
+GetWeaponPrimaryClipCount()
+GetWeaponPrimaryClipCountMax()
+GetWeaponSettingBool()
+GetWeaponSettingFloat()
+GetWeaponSettingInt()
+GetWeaponType() // WT_ANTITITAN
+GetXP()
+```
+```
+SetNextAttackAllowedTime()
+SetWeaponChargeFractionForced)
+SetWeaponPrimaryClipCount()
 ```
 
 ## Bools
 ```
+HasMod("modname")
 IsReadyToFire()
 IsWeaponInAds()
 ```
