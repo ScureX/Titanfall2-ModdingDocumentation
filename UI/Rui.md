@@ -63,7 +63,7 @@ clGlobal.topoCockpitHudPermanent
 ```
 ### Create Topology
 ```
-RuiTopology_CreatePlane( <0,0,0>, <screenSize[0],0,0>, <0,screenSize[1],0>, false) // float[2] screenSize = GetScreenSize()
+RuiTopology_CreatePlane( origin, right, down, doClipping ) // origin is apparently unknown, good luck getting any of this to work lol
 RuiTopology_CreateSphere()
 ```
 
